@@ -1,0 +1,129 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Greetings",
+                "What's up?"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?",
+                "Hey, how's it going?",
+                "Hi! What can I do for you?",
+                "Hola! ¿Cómo estás?"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time",
+                "Farewell",
+                "Take care"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "Goodbye! Take care",
+                "Adiós!",
+                "Hasta luego!"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me",
+                "Much appreciated"
+            ],
+            "responses": [
+                "My pleasure",
+                "You're Welcome",
+                "Glad I could assist!",
+                "No problem at all",
+                "Happy to help"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "query",
+            "patterns": [
+                "What is Simplilearn?",
+                "Tell me about Simplilearn",
+                "What does Simplilearn offer?",
+                "Can you explain Simplilearn to me?"
+            ],
+            "responses": [
+                "Simplilearn is the popular online Bootcamp & online courses learning platform",
+                "Simplilearn provides a variety of online courses and Bootcamps to help you enhance your skills",
+                "Simplilearn offers a wide range of courses and Bootcamps designed to meet your learning needs"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "information",
+            "patterns": [
+                "Can you provide information?",
+                "I need some information",
+                "Tell me more",
+                "What can you tell me?"
+            ],
+            "responses": [
+                "Of course! What do you need information about?",
+                "Sure, I'd be happy to provide information. What are you interested in?",
+                "Absolutely, what specific information are you looking for?"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "compliment",
+            "patterns": [
+                "You're doing great",
+                "Nice job",
+                "I'm impressed",
+                "Great work"
+            ],
+            "responses": [
+                "Thank you!",
+                "I appreciate the compliment!",
+                "Glad to hear that!",
+                "Thanks for the encouragement!"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "farewell",
+            "patterns": [
+                "Until next time",
+                "See you soon",
+                "Take care",
+                "Goodbye for now"
+            ],
+            "responses": [
+                "Goodbye!",
+                "Until next time!",
+                "Take care! See you soon.",
+                "Farewell! Have a great day."
+            ],
+            "context": [""]
+        }
+    ]
+}
