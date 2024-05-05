@@ -2,128 +2,153 @@
     "intents": [
         {
             "tag": "greeting",
-            "patterns": [
-                "Hi there",
-                "How are you",
-                "Is anyone there?",
-                "Hey",
-                "Hola",
-                "Hello",
-                "Good day",
-                "Greetings",
-                "What's up?"
-            ],
-            "responses": [
-                "Hello",
-                "Good to see you again",
-                "Hi there, how can I help?",
-                "Hey, how's it going?",
-                "Hi! What can I do for you?",
-                "Hola! ¿Cómo estás?"
-            ],
-            "context": [""]
+            "patterns": ["Hi!", "Hello", "Hey there", "Hi there", "Greetings", "Good day"],
+            "responses": ["Hello!", "Hi there!", "Hey!", "Greetings!", "Good day!"]
         },
         {
-            "tag": "goodbye",
-            "patterns": [
-                "Bye",
-                "See you later",
-                "Goodbye",
-                "Nice chatting to you, bye",
-                "Till next time",
-                "Farewell",
-                "Take care"
-            ],
-            "responses": [
-                "See you!",
-                "Have a nice day",
-                "Bye! Come back again soon.",
-                "Goodbye! Take care",
-                "Adiós!",
-                "Hasta luego!"
-            ],
-            "context": [""]
-        },
-        {
-            "tag": "thanks",
-            "patterns": [
-                "Thanks",
-                "Thank you",
-                "That's helpful",
-                "Awesome, thanks",
-                "Thanks for helping me",
-                "Much appreciated"
-            ],
-            "responses": [
-                "My pleasure",
-                "You're Welcome",
-                "Glad I could assist!",
-                "No problem at all",
-                "Happy to help"
-            ],
-            "context": [""]
-        },
-        {
-            "tag": "query",
-            "patterns": [
-                "What is Simplilearn?",
-                "Tell me about Simplilearn",
-                "What does Simplilearn offer?",
-                "Can you explain Simplilearn to me?"
-            ],
-            "responses": [
-                "Simplilearn is the popular online Bootcamp & online courses learning platform",
-                "Simplilearn provides a variety of online courses and Bootcamps to help you enhance your skills",
-                "Simplilearn offers a wide range of courses and Bootcamps designed to meet your learning needs"
-            ],
-            "context": [""]
-        },
-        {
-            "tag": "information",
-            "patterns": [
-                "Can you provide information?",
-                "I need some information",
-                "Tell me more",
-                "What can you tell me?"
-            ],
-            "responses": [
-                "Of course! What do you need information about?",
-                "Sure, I'd be happy to provide information. What are you interested in?",
-                "Absolutely, what specific information are you looking for?"
-            ],
-            "context": [""]
-        },
-        {
-            "tag": "compliment",
-            "patterns": [
-                "You're doing great",
-                "Nice job",
-                "I'm impressed",
-                "Great work"
-            ],
-            "responses": [
-                "Thank you!",
-                "I appreciate the compliment!",
-                "Glad to hear that!",
-                "Thanks for the encouragement!"
-            ],
-            "context": [""]
+            "tag": "wellbeing",
+            "patterns":["How are you?", "Are you fine"],
+            "responses": ["I am fine, How may I assit you!"]
         },
         {
             "tag": "farewell",
-            "patterns": [
-                "Until next time",
-                "See you soon",
-                "Take care",
-                "Goodbye for now"
-            ],
-            "responses": [
-                "Goodbye!",
-                "Until next time!",
-                "Take care! See you soon.",
-                "Farewell! Have a great day."
-            ],
-            "context": [""]
+            "patterns": ["Goodbye", "See you later", "Bye!", "Take care", "Until next time", "So long"],
+            "responses": ["Goodbye!", "See you later!", "Bye! Have a great day!", "Take care!", "Until next time!", "So long!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thank you", "Thanks a lot", "Thanks!", "Appreciate it", "Thank you so much", "Thanks a bunch"],
+            "responses": ["You're welcome!", "No problem!", "Glad I could help!", "You're welcome! Happy to assist!", "No worries!"]
+        },
+        {
+            "tag": "apology",
+            "patterns": ["I'm sorry", "Sorry about that", "My apologies", "Apologies", "I apologize", "Forgive me"],
+            "responses": ["No worries!", "It's okay!", "No problem!", "That's alright!", "Don't worry about it!"]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What's the weather like?", "Is it going to rain today?", "How's the weather?", "What's the forecast?", "Will it be sunny today?", "Do I need an umbrella?"],
+            "responses": ["The weather is sunny/cloudy/rainy today.", "It's [current weather].", "The forecast predicts [weather]."]
+        },
+        {
+            "tag": "full_form",
+            "patterns": ["what is full form of MNNIT", "MNNIT full form"],
+            "responses": ["Motilal Nehru National Institute of Technology Allahabad"]
+        },
+        {
+            "tag": "time",
+            "patterns": ["What time is it?", "Do you have the time?", "What's the time now?", "Can you tell me the time?", "What hour is it?"],
+            "responses": ["It's ", "The time is ", "It is currently "]
+        },
+        {
+            "tag": "date",
+            "patterns": ["What's today's date?", "What date is it today?", "Can you tell me the date?", "What's the current date?", "What's today's day?"],
+            "responses": ["Today is ", "The date today is ", "It is currently "]
+        },
+        {
+            "tag": "weekday",
+            "patterns": ["What day is it?", "Is it Monday/Tuesday/etc?", "What's the day today?", "What day of the week is it?"],
+            "responses": ["Today is ", "It's ", "The day today is "]
+        },
+        {
+            "tag" : "calculation",
+            "patterns": ["Find the value of ", "calculate", "find", "calculate the value of","find","Find the sum of"],
+            "responses":["The ans is : "]
+        },
+        {
+            "tag": "name",
+            "patterns": ["What's your name?", "May I know your name?", "Who are you?", "What should I call you?"],
+            "responses": ["I'm [bot name].", "You can call me [bot name].", "My name is [bot name]."]
+        },
+        {
+            "tag": "age",
+            "patterns": ["How old are you?", "What's your age?", "When were you created?", "How long have you existed?"],
+            "responses": ["I'm a computer program, so I don't have an age!", "I don't have an age as I am a virtual assistant."]
+        },
+        {
+            "tag": "location",
+            "patterns": ["Where are you from?", "Where are you located?", "What's your location?", "Are you in [city/country]?"],
+            "responses": ["I exist in the digital realm!", "I don't have a physical location.", "I'm everywhere and nowhere at the same time."]
+        },
+        {
+            "tag": "interests",
+            "patterns": ["What are your interests?", "What do you like to do?", "Tell me about your hobbies.", "What are you passionate about?"],
+            "responses": ["I like helping people with their questions!", "My interest is assisting you.", "I'm passionate about providing helpful information."]
+        },
+        {
+            "tag": "plans",
+            "patterns": ["What are your plans for today?", "Do you have any plans?", "What's on your agenda?"],
+            "responses": ["I'm here to assist you with your questions and tasks!", "My plan is to help you."]
+        },
+        {
+            "tag": "pets",
+            "patterns": ["Do you have any pets?", "Tell me about your pets.", "Are you a pet owner?"],
+            "responses": ["I'm a virtual assistant, so I don't have any pets!", "I don't own any pets, but I can provide information about them."]
+        },
+        {
+            "tag": "hobbies",
+            "patterns": ["What are your hobbies?", "Do you have any hobbies?", "Tell me about your interests.", "What do you do for fun?"],
+            "responses": ["My hobby is answering questions and assisting users!", "I enjoy helping people with their inquiries."]
+        },
+        {
+            "tag": "food",
+            "patterns": ["What's your favorite food?", "Do you like to eat?", "What's your go-to meal?"],
+            "responses": ["I don't eat, but I can recommend some great recipes!", "I don't have a favorite food, but I can suggest some delicious dishes!"]
+        },
+        {
+            "tag": "music",
+            "patterns": ["What's your favorite music?", "Do you like music?", "What music do you listen to?"],
+            "responses": ["I don't have a favorite music genre, but I can suggest some great songs!", "I enjoy all types of music!"]
+        },
+        {
+            "tag": "movies",
+            "patterns": ["What's your favorite movie?", "Do you like movies?", "What movie genres do you enjoy?"],
+            "responses": ["I don't have a favorite movie, but I can recommend some great films!", "I enjoy watching movies of all genres!"]
+        },
+        {
+            "tag": "books",
+            "patterns": ["What's your favorite book?", "Do you like to read?", "What genres of books do you enjoy?"],
+            "responses": ["I don't have a favorite book, but I can suggest some great reads!", "I enjoy reading all kinds of books!"]
+        },
+        {
+            "tag": "sports",
+            "patterns": ["Do you like sports?", "What's your favorite sport?", "Are you a sports fan?"],
+            "responses": ["I'm not into sports, but I can share some interesting sports facts!", "I'm not a sports enthusiast, but I can provide information about different sports!"]
+        },
+        {
+            "tag": "technology",
+            "patterns": ["Are you interested in technology?", "What's your favorite tech gadget?", "Do you follow tech trends?"],
+            "responses": ["I'm a computer program, so I'm naturally interested in technology!", "I don't have a favorite tech gadget, but I can provide information about various technologies!"]
+        },
+        {
+            "tag": "travel",
+            "patterns": ["Do you like to travel?", "What's your favorite travel destination?", "Have you been on any trips recently?"],
+            "responses": ["I'm a virtual assistant, so I don't travel, but I can provide travel tips and information!", "I'm not able to travel, but I can help you plan your trips!"]
+        },
+        {
+            "tag": "dreams",
+            "patterns": ["Do you dream?", "What do you dream about?", "Do you have recurring dreams?"],
+            "responses": ["I'm a computer program, so I don't dream!", "Dreams are fascinating, but I don't experience them."]
+        },
+        {
+            "tag": "goals",
+            "patterns": ["Do you have any goals?", "What are your goals?", "Are you working towards any objectives?"],
+            "responses": ["My goal is to assist you with your questions and tasks!", "I'm here to help you achieve your goals!"]
+        },
+        {
+            "tag": "emotions",
+            "patterns": ["Do you have emotions?", "Can you feel emotions?", "What emotions do you experience?"],
+            "responses": ["I'm a computer program, so I don't have emotions!", "I don't experience emotions, but I can understand them."]
+        },
+        {
+            "tag": "exercise",
+            "patterns": ["Do you exercise?", "What's your favorite exercise?", "How do you stay fit?"],
+            "responses": ["I'm a computer program, so I don't exercise, but I can provide fitness tips!", "Exercise is important, but I don't participate in it."]
+        },
+        {
+            "tag": "work",
+            "patterns": ["Do you work?", "What do you do for work?", "Are you employed?"],
+            "responses": ["I'm a virtual assistant, so I'm here to assist you with your questions and tasks!", "My job is to help you."]
         }
     ]
 }
