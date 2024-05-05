@@ -149,6 +149,126 @@
             "tag": "work",
             "patterns": ["Do you work?", "What do you do for work?", "Are you employed?"],
             "responses": ["I'm a virtual assistant, so I'm here to assist you with your questions and tasks!", "My job is to help you."]
+        },
+        {
+          "tag": "health",
+          "patterns": ["when a man is healthy?","what should we eat to be healthy","health index","yoga is sufficient for health?"],
+          "responses":["A person is considered healthy when their body and mind are in a state of well-being, free from illness or injury.","A balanced diet that includes a variety of fruits, vegetables, whole grains, and lean proteins is key to maintaining good health.","Health index is a measurement used to assess and compare the health status of individuals, communities, or populations.","While yoga can have numerous health benefits, including improved flexibility and stress reduction, a balanced lifestyle that includes proper nutrition and regular exercise is generally recommended for overall health."]
+        },
+        {
+            "tag": "politics",
+            "patterns": ["who will win elections in 2024", "how many political parties are there", "when do we say a party good ?"],
+            "responses": [ "Predicting election outcomes is complex and depends on various factors such as voter sentiment, campaign strategies, and current events. It's challenging to determine the winner with certainty.",  "The number of political parties can vary by country. Some countries have a multi-party system with several parties, while others may have a two-party system or a dominant-party system.", "The perception of a 'good' political party can vary widely among individuals and is often subjective. Some may consider a party good based on its policies, leadership, transparency, and ability to address societal issues effectively."]
+        },
+        {
+            "tag": "education",
+            "patterns": ["level of education in india", "what is literacy rate in india", "who is educated?"],
+            "responses": [ "India has made significant progress in improving access to education. However, challenges such as quality of education, dropout rates, and disparities between urban and rural areas persist.", "As of [latest available data], the literacy rate in India is 88%(approx). While there has been improvement over the years, efforts are ongoing to further enhance literacy levels.", "Education is a broad term that encompasses formal schooling, vocational training, and self-learning. Generally, someone is considered educated if they have acquired knowledge and skills through these means, enabling them to understand complex concepts, think critically, and contribute meaningfully to society."]
+        },
+        {
+            "tag": "healthcare",
+            "patterns": ["what are the basic health facilities", "how to improve healthcare system", "what is the role of technology in healthcare"],
+            "responses": ["Basic health facilities include access to clean water, sanitation, vaccination, and primary healthcare services.", "Improving the healthcare system requires addressing various factors such as infrastructure, funding, training of healthcare professionals, and public awareness.", "Technology plays a crucial role in healthcare, enabling better diagnosis, treatment, and management of diseases. It also facilitates remote monitoring, telemedicine, and access to health information."]
+        },
+        {
+            "tag": "environment",
+            "patterns": ["what is environmental conservation", "how to reduce carbon footprint", "importance of biodiversity"],
+            "responses": ["Environmental conservation refers to the protection and preservation of natural resources and ecosystems.", "Reducing carbon footprint involves reducing greenhouse gas emissions through lifestyle changes, energy efficiency, and use of renewable energy sources.", "Biodiversity is important for maintaining ecological balance, providing ecosystem services, and supporting human well-being."]
+        },
+        {
+            "tag": "science",
+            "patterns": ["what is science", "why is science important", "how does science work"],
+            "responses": ["Science is a systematic enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the universe.", "Science is important because it helps us understand the world around us, solve problems, and make informed decisions.", "Science works by using observation, experimentation, and logical reasoning to understand natural phenomena and develop theories and laws that describe them."]
+        },
+        {
+            "tag": "history",
+            "patterns": ["what is history", "why is history important", "how does history impact us"],
+            "responses": ["History is the study of past events, particularly in human affairs.", "History is important because it helps us understand the present, learn from past mistakes, and make better decisions for the future.", "History impacts us by shaping our identity, influencing our culture, and providing lessons for the future."]
+        },
+        {
+            "tag": "mnnit",
+            "patterns": ["Tell me about MNNIT", "What is MNNIT", "MNNIT Allahabad details", "Motilal Nehru National Institute of Technology"],
+            "responses": ["Motilal Nehru National Institute of Technology (MNNIT) is located in Allahabad, Uttar Pradesh, India.", "It is one of the leading NITs in India, known for its academic excellence and research facilities.", "MNNIT offers undergraduate, postgraduate, and doctoral programs in various engineering disciplines, sciences, management, and humanities.", "The institute has a strong faculty team, state-of-the-art infrastructure, and vibrant campus life.", "MNNIT has collaborations with various industries and institutions, providing students with opportunities for internships, projects, and placements.", "The institute is committed to producing skilled professionals and contributing to society through research and innovation."]
+        },
+        {
+            "tag": "ipl",
+            "patterns": ["Tell me about IPL", "What is IPL", "Indian Premier League details", "IPL teams"],
+            "responses": ["The Indian Premier League (IPL) is a professional Twenty20 cricket league in India.", "It was founded by the Board of Control for Cricket in India (BCCI) in 2007.", "The IPL features eight teams representing different cities in India, and matches are played in a round-robin format followed by playoffs.", "The league has gained immense popularity for its exciting cricket, star players, and high-energy matches.", "IPL has also become a platform for young talents to showcase their skills and earn recognition.", "The tournament has a huge fan following and is known for its entertainment value, making it one of the most-watched cricket leagues globally."]
+        },
+        {
+            "tag": "cricket",
+            "patterns": ["Tell me about cricket", "What is cricket", "Cricket rules", "How to play cricket", "Cricket formats", "Cricket equipment"],
+            "responses": ["Cricket is a bat-and-ball game played between two teams of eleven players each on a field.", "The game is played with a bat and ball on a rectangular 22-yard long pitch.", "The objective of the game is for the batting team to score runs by hitting the ball and for the bowling and fielding team to dismiss the batsmen.", "Cricket has three main formats: Test cricket, One Day Internationals (ODIs), and Twenty20 (T20) cricket.", "Test cricket is the longest format, played over five days, while ODIs are limited-overs matches lasting 50 overs per side. T20 cricket is the shortest format, with each team playing 20 overs.", "Cricket equipment includes a bat, ball, stumps, bails, and protective gear such as pads, gloves, and helmets."]
+        },
+        {
+            "tag": "series_netflix",
+            "patterns": ["Recommend me a series on Netflix", "What series should I watch on Netflix?", "Popular Netflix series", "Netflix original series"],
+            "responses": ["Netflix offers a wide range of series across various genres, catering to different tastes and preferences.", "Some popular Netflix series include 'Stranger Things', 'The Crown', 'Money Heist', 'Black Mirror', 'Narcos', and 'The Witcher'.", "Netflix also produces original series known as Netflix Originals, which have gained popularity for their unique content and storytelling."]
+        },
+        {
+            "tag": "anime",
+            "patterns": ["What is anime?", "Popular anime series", "Anime genres", "Anime recommendations"],
+            "responses": ["Anime is a style of animation that originated in Japan and has become popular worldwide.", "Anime covers a wide range of genres, including action, adventure, romance, fantasy, and science fiction.", "Some popular anime series include 'Naruto', 'One Piece', 'Dragon Ball', 'Attack on Titan', 'Death Note', and 'My Hero Academia'.", "If you're new to anime, you might enjoy starting with a genre that interests you or exploring popular series to get a feel for different styles and themes."]
+        },
+        {
+            "tag": "social_media",
+            "patterns": ["What is social media?", "Popular social media platforms", "Benefits of social media", "Social media trends"],
+            "responses": ["Social media refers to websites and applications that allow users to create and share content or participate in social networking.", "Some popular social media platforms include Facebook, Instagram, Twitter, LinkedIn, Snapchat, and TikTok.", "Social media provides a platform for people to connect with friends and family, share updates, and express themselves.", "Social media trends refer to popular topics, hashtags, or challenges that gain traction among users and become widely shared or discussed."]
+        },
+        {
+            "tag": "fitness",
+            "patterns": ["How to stay fit?", "Fitness tips", "Benefits of exercise", "Healthy lifestyle habits"],
+            "responses": ["Staying fit involves a combination of regular exercise, balanced diet, and adequate rest.", "Fitness tips include setting realistic goals, staying hydrated, warming up before exercise, and listening to your body.", "Exercise has numerous benefits, including improved cardiovascular health, better mood, increased energy levels, and weight management.", "Incorporating healthy habits such as regular exercise, balanced diet, adequate sleep, and stress management can contribute to overall fitness and well-being."]
+        },
+        {
+            "tag": "bollywood",
+            "patterns": ["What is Bollywood?", "Popular Bollywood movies", "Bollywood actors", "Bollywood news"],
+            "responses": ["Bollywood is the informal term used for the Hindi-language film industry based in Mumbai, India.", "Some popular Bollywood movies include 'Dilwale Dulhania Le Jayenge', 'Sholay', 'Lagaan', '3 Idiots', and 'Dangal'.", "Bollywood is known for its talented actors such as Shah Rukh Khan, Amitabh Bachchan, Aamir Khan, Deepika Padukone, and Priyanka Chopra.", "Bollywood news covers updates on upcoming movies, celebrity gossip, box office performance, and industry trends."]
+        },
+        {
+            "tag": "tollywood",
+            "patterns": ["What is Tollywood?", "Popular Tollywood movies", "Tollywood actors", "Tollywood news"],
+            "responses": ["Tollywood is the informal term used for the Telugu-language film industry based in Hyderabad, India.", "Some popular Tollywood movies include 'Baahubali: The Beginning', 'Arjun Reddy', 'Rangasthalam', 'Ala Vaikunthapurramuloo', and 'Srimanthudu'.", "Tollywood is known for its talented actors such as N.T. Rama Rao, Chiranjeevi, Mahesh Babu, Prabhas, and Allu Arjun.", "Tollywood news covers updates on upcoming movies, celebrity gossip, box office performance, and industry trends."]
+        },
+        {
+            "tag": "hollywood",
+            "patterns": ["What is Hollywood?", "Popular Hollywood movies", "Hollywood actors", "Hollywood news"],
+            "responses": ["Hollywood is the informal term used for the American film industry based in Hollywood, California.", "Some popular Hollywood movies include 'The Godfather', 'Titanic', 'The Dark Knight', 'Avatar', and 'Jurassic Park'.", "Hollywood is known for its talented actors such as Tom Hanks, Meryl Streep, Leonardo DiCaprio, Brad Pitt, and Angelina Jolie.", "Hollywood news covers updates on upcoming movies, celebrity gossip, award shows, and industry trends."]
+        },
+        {
+            "tag": "entrepreneurship",
+            "patterns": ["What is entrepreneurship?", "How to become an entrepreneur?", "Startup advice", "Entrepreneurship success stories"],
+            "responses": ["Entrepreneurship is the process of starting and running a business, typically with a focus on innovation and taking risks.", "To become an entrepreneur, you can start by identifying a problem or opportunity, developing a business idea, creating a business plan, and securing funding.", "Startup advice includes tips on validating your idea, building a strong team, finding mentors, and navigating challenges.", "Entrepreneurship success stories highlight the journeys of successful entrepreneurs, showcasing their strategies, challenges, and achievements."]
+        },
+        {
+            "tag": "fashion",
+            "patterns": ["What are the latest fashion trends?", "Fashion tips", "How to style different outfits?", "Fashion designers to watch"],
+            "responses": ["The latest fashion trends include oversized blazers, vintage denim, bold colors, and statement accessories.", "Fashion tips include finding your personal style, investing in staple pieces, and experimenting with trends.", "To style different outfits, consider the occasion, color palette, and proportions. Mix and match items to create unique looks.", "Fashion designers to watch include emerging talents and established designers known for their innovative designs and contributions to the fashion industry."]
+        },
+        {
+            "tag": "astronomy",
+            "patterns": ["What is astronomy?", "Interesting facts about space", "How to observe celestial events?", "Latest discoveries in astronomy"],
+            "responses": ["Astronomy is the study of celestial objects, space, and the universe as a whole.", "Interesting facts about space include the existence of black holes, the formation of galaxies, and the possibility of life on other planets.", "To observe celestial events, you can use telescopes, binoculars, and stargazing apps. Look out for events like meteor showers, eclipses, and planetary alignments.", "Latest discoveries in astronomy include new exoplanets, insights into dark matter and dark energy, and the discovery of gravitational waves."]
+        },
+        {
+            "tag": "animals",
+            "patterns": ["Interesting facts about animals", "Animal behavior", "Endangered species", "Pets and pet care"],
+            "responses": ["Animals have unique abilities and characteristics, such as the ability of some octopuses to change color and texture, or the long migration journeys of monarch butterflies.", "Animal behavior encompasses a wide range of topics, from communication and social structures to hunting and mating patterns.", "Many species are considered endangered due to factors like habitat loss, climate change, and poaching. Conservation efforts aim to protect these species and their habitats.", "Pets can provide companionship, reduce stress, and promote physical activity. Proper pet care includes providing a balanced diet, regular exercise, and veterinary care."]
+        },
+        {
+            "tag": "engineering",
+            "patterns": ["Types of engineering", "Engineering disciplines", "Engineering career paths", "Engineering innovations"],
+            "responses": ["Engineering encompasses various disciplines, including civil, mechanical, electrical, and chemical engineering, each focusing on different aspects of technology and problem-solving.", "Engineering disciplines range from traditional fields like civil and mechanical engineering to emerging fields like biomedical and environmental engineering.", "Engineering offers diverse career paths, such as design, research, project management, and consulting, across industries like aerospace, automotive, and software development.", "Engineering innovations drive progress in areas like infrastructure, transportation, communication, and healthcare, with advancements such as 3D printing, renewable energy, and artificial intelligence."]
+        },
+        {
+            "tag": "medical",
+            "patterns": ["Medical specialties", "Healthcare professions", "Medical advancements", "Common medical procedures"],
+            "responses": ["Medical specialties include fields like cardiology, dermatology, oncology, and psychiatry, each focusing on specific aspects of healthcare.", "Healthcare professions encompass a wide range of roles, such as doctors, nurses, pharmacists, and medical researchers, all contributing to patient care and medical advancements.", "Medical advancements include breakthroughs in areas like gene editing, personalized medicine, robotic surgery, and telemedicine, improving diagnosis, treatment, and patient outcomes.", "Common medical procedures range from routine check-ups and vaccinations to surgical interventions and rehabilitation therapies, all aimed at maintaining or restoring health."]
+        },
+        {
+            "tag": "army",
+            "patterns": ["Military branches", "Army ranks", "Military training", "Army deployments"],
+            "responses": ["Military branches include the army, navy, air force, and marines, each specializing in different aspects of national defense and security.", "Army ranks range from enlisted personnel like privates and sergeants to commissioned officers like lieutenants and generals, each with specific responsibilities and leadership roles.", "Military training prepares soldiers for combat and non-combat roles, focusing on physical fitness, weapons proficiency, tactical skills, and leadership development.", "Army deployments involve sending troops to specific locations for missions like combat operations, peacekeeping, disaster relief, and training exercises, often in collaboration with allied forces."]
         }
     ]
 }
